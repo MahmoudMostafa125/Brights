@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/white"
+    android:autoMirrored="true"
+    android:id="@+id/withbacktool">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/recent"
+        android:textColor="@color/Email_login_btn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:rotationY="@integer/locale_mirror_flip"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+</android.support.v7.widget.Toolbar>

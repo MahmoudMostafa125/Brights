@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:checked="true"
+            android:icon="@drawable/recent"
+            android:title="@string/recent" />
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@drawable/explorl"
+            android:title="@string/attractions" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_apps_guide_24dp"
+            android:title="@string/Guide" />
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/car"
+            android:title="@string/Cars" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/profile" />
+    </group>
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noor</string>
+    <string name="activities">اكتشف</string>
+
+    <string name="Facebook_Login_BTN">تسجيل دخول بفيسبوك</string>
+    <string name="facebook_app_id" translatable="false">208260130078313</string>
+    <string name="Guide">أماكن</string>
+    <string name="Trips">رحلات</string>
+    <string name="Places">أماكن</string>
+    <string name="choose_the_date_of_booking">إختر تاريخ الحجز : </string>
+    <string name="title_activity_maps">خريطة</string>
+    <string name="let_s_chat">ابدء محادثة</string>
+    <string name="Gmail_BTN">تسجيل دخول بجوجل</string>
+    <string name="Twitter_BTN" translatable="false">تسجيل دخول بتويتر</string>
+    <string name="Email_BTN">تسجيل دخول بالبريد</string>
+    <string name="Visitor_BTN">الدخول كزائر</string>
+    <string name="noor">Bright</string>
+    <string name="discover_the_world_together">تطبيق نور ..رفيقك المفضل في السفر</string>
+    <string name="phoneOREmail">رقم الهاتف او البريد الالكتروني</string>
+    <string name="secretNum">الرقم السري</string>
+    <string name="enter">دخول</string>
+    <string name="name">الاسم</string>
+    <string name="email_reg">البريد الالكتروني</string>
+    <string name="mobile_reg">رقم الموبايل</string>
+    <string name="secretNum_re">إعادة الرقم السري</string>
+    <string name="register"> تسجيل</string>
+
+    <string name="recent">الأحدث</string>
+    <string name="search">بحث</string>
+    <string name="tour_places">الأماكن السياحية</string>
+    <string name="discover">اكتشف</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="you_have_not_account">ليس لديك حساب؟  قم بالتسجيل</string>
+    <!--           new section      -->
+    <string name="img_des">sdsdsd</string>
+    <string name="privacy">بالضغط على تسجيل تكون الموافقة على شروط الإستخدام والخصوصية</string>
+    <string name="have_account">لديك حساب بالفعل؟ قم بالدخول</string>
+
+    <string name="err_name">ادخل اسم من فضلك</string>
+    <string name="err_email">ادخل ايميل من فضلك</string>
+    <string name="err_tel">ادخل رقم الهاتف</string>
+    <string name="err_password">يجب أن تحتوي كلمة المرور على 6 خانات على الأقل </string>
+    <string name="err_password_confirmation">من فضلك قم باعادة ادخال كلمة المرور</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Cars">سيارات</string>
+    <string name="date_selected_is">التاريخ هو : </string>
+    <string name="choose_your_ticket">إختر تذكرتك : </string>
+    <string name="adult_ticket">تذكرة البالغين</string>
+    <string name="child_ticket">تذكرة الاطفال</string>
+    <string name="infant_ticket">تذكرة الرضع</string>
+    <string name="total">المجموع :</string>
+    <string name="do_you_want_to_book_a_car">هل تريد حجز سيارة ؟ </string>
+    <string name="book">إحجز</string>
+    <string name="share_place">شارك المكان</string>
+    <string name="favorites">المفضلة</string>
+    <string name="reservations">الحجوزات</string>
+    <string name="points">النقاط</string>
+    <string name="account">الحساب</string>
+    <string name="edit">تعديل</string>
+    <string name="best_destinations">أفضل الوجهات</string>
+    <string name="near_places">الأماكن القريبة</string>
+    <string name="cars_and_trips">سيارات ورحلات</string>
+    <string name="map">الخريطة</string>
+    <string name="menu">القائمة</string>
+    <string name="places_that_near_from">الأماكن القريبة من : </string>
+    <string name="choose_places">إختر الأماكن</string>
+    <string name="choose_cars">إختر السيارات</string>
+    <string name="terms_and_conditions">الأحكام والشروط : </string>
+    <string name="reviews">التعليقات</string>
+    <string name="searchnow">بحث ...</string>
+    <string name="bought">مباع </string>
+    <string name="passengers">عدد الركاب : </string>
+
+
+
+    <string name="address">العنوان : </string>
+    <string name="open">مفتوح من : </string>
+    <string name="to">الي</string>
+    <string name="phone">تليفون : </string>
+    <string name="language">اللغة</string>
+    <string name="choose">إختر اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="about_us">عنا</string>
+    <string name="terms">الشروط والأحكام</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="write_your_message">الرسالة</string>
+    <string name="write_your_email">الإيميل</string>
+    <string name="time">الوقت هو : </string>
+    <string name="phone_number">رقم الهاتف : </string>
+    <string name="choose_the_time_of_booking">إختر وقت الحجز : </string>
+    <string name="date">التاريخ : </string>
+    <string name="upcom">قادمة</string>
+    <string name="past">ماضية</string>
+    <string name="aboutnoor">عن برايت</string>
+    <string name="km">كم</string>
+    <string name="exit">تريد الخروج؟</string>
+    <string name="exitnow">هل تريد الخروج حقا؟</string>
+    <string name="offline">انت غير متصل بالانترنت</string>
+    <string name="log_out">خروج</string>
+    <string name="there_is_no_data">لا توجد بيانات للعرض</string>
+    <string name="edit_mobile">تعديل رقم الهاتف</string>
+    <string name="email_not_editable">الإيميل (غير قابل للتعديل)</string>
+    <string name="edit_your_account_information">تعديل معلومات الحساب</string>
+    <string name="edit_name">تعديل الاسم</string>
+    <string name="submit">تعديل</string>
+    <string name="filter">تصفية</string>
+    <string name="help">مساعدة</string>
+    <string name="attraction">مزارات سياحية</string>
+    <string name="n">الزيتون القاهرة</string>
+    <string name="attractions">مزارات</string>
+    <string name="contact_us_with_whats">التواصل معنا عن طريق الواتس : </string>
+    <string name="for_inquiries_and_reservations">للاستفسار والحجز :</string>
+    <string name="customers_service">خدمة العملاء : </string>
+    <string name="management_and_complaints">الشكاوي : </string>
+    <string name="email">الايميل : </string>
+    <string name="refund_policy">سياسة الاسترجاع</string>
+    <string name="cancellation_policy">سياسة الالغاء</string>
+    <string name="from_you">يبعد عنك</string>
+</resources>

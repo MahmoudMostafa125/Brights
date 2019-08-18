@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+   >
+
+    <LinearLayout android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingEnd="0dip"
+        >
+
+    <EditText android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_weight="13"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:hint="@string/searchnow"
+        android:layout_marginStart="5dp"
+        android:layout_gravity="center_vertical"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        />
+
+        <ImageView
+            android:id="@+id/searchorder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:src="@drawable/ic_search_24dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/research"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+        <ProgressBar
+            android:id="@+id/prgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:indeterminate="true" />
+        <TextView
+            android:id="@+id/messagenodatap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="There is no results for your search "
+            android:textColor="@color/logo" />
+    </FrameLayout>
+
+</LinearLayout>

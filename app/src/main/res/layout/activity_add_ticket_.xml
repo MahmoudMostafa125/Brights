@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AddTicket_Activity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/countryIDticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/nameIDticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Enter Reservation Details"
+                android:textColor="@color/logo"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textPrice2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Price : "
+                    android:textColor="@color/logo"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TicketA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_calender"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/best"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Adult Ticket"
+                        android:textColor="@color/Email_login_btn" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/bespri"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price  : "
+                            android:textColor="@color/Email_login_btn" />
+
+                        <TextView
+                            android:id="@+id/besprid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:textColor="@color/logo"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <NumberPicker
+                    android:id="@+id/A"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TicketC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_calender"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bestt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Child Ticket"
+                        android:textColor="@color/Email_login_btn" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/besprii"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price  : "
+                            android:textColor="@color/Email_login_btn" />
+
+                        <TextView
+                            android:id="@+id/bespridd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:textColor="@color/logo"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <NumberPicker
+                    android:id="@+id/C"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/TicketI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_calender"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/besttt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Infant Ticket"
+                        android:textColor="@color/Email_login_btn" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/bespriii"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price  : "
+                            android:textColor="@color/Email_login_btn" />
+
+                        <TextView
+                            android:id="@+id/bespriddd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:textColor="@color/logo"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <NumberPicker
+                    android:id="@+id/I"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/carBtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button_email"
+                android:onClick="carActiviyt"
+                android:text="Do you Want Car ? "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <Button
+                android:id="@+id/payBtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_button_email"
+                android:onClick="Pay"
+                android:text="Payment Method"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

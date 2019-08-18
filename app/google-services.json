@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "771561887528",
+    "firebase_url": "https://noor-app-845db.firebaseio.com",
+    "project_id": "noor-app-845db",
+    "storage_bucket": "noor-app-845db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771561887528:android:01a907ccbe62dd0a",
+        "android_client_info": {
+          "package_name": "com.noorapp.noor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771561887528-l4sa4kcfub659f1kuovde694dpg3nim5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZS5nYAHdXYkqvKrATIGsGE-18jL-3lEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
